@@ -8,8 +8,8 @@ LOAD = function () {//harness
 			complete: function () {TH.boot();}
 		},{
 			load: 'http://www.google-analytics.com/ga.js',
-			complete: function () {var tracker = _gat._getTracker("UA-1096487-8");tracker._trackPageview();}
-		}]);	
+			complete: function () {var tracker = _gat._getTracker("UA-142589-8");tracker._trackPageview();}
+		}]);
 	}
 	return {boot:boot}
 }();
